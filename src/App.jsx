@@ -1,4 +1,4 @@
-import { Header } from './components/header'
+import { Header } from './components/Header'
 import { MainArticle } from './components/MainArticle'
 import { NewContainer } from './components/NewContainer'
 
