@@ -1,4 +1,5 @@
 import burguerIcon from '../assets/images/burgerIcon.png'
+
 export const NavBar = () => {
   return (
     <>
