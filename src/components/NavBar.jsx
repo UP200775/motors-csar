@@ -1,4 +1,5 @@
 import burguerIcon from '../assets/images/burgerIcon.png'
+import { Link, Outlet } from 'react-router-dom';
 
 export const NavBar = () => {
   return (
@@ -6,22 +7,25 @@ export const NavBar = () => {
     <ul className="hidden sm:flex text-[18px] sm:w-[438px] sm: place-content-around sm:text-[16px]
                     sm:items-center">
         <li>
-            <a href="#">Inicio</a>
+            <Link to="/">Inicio</Link>  
+        </li>
+  
+        <li>
+            <Link to="/Autos">Autos</Link>
+        </li>
+
+        <li>
+            <Link to="/Refacciones">Refacciones</Link>
         </li>
         <li>
-            <a href="#">Autos</a>
+            <Link to="/Artículos">Artículos</Link>
         </li>
         <li>
-            <a href="#">Refacciones</a>
-        </li>
-        <li>
-            <a href="#">Artículos</a>
-        </li>
-        <li>
-            <a href="#">Comunícate</a>
+            <Link to="/Comunícate">Comunícate</Link>
         </li>
     </ul>
     <img className='w-10 h-4 cursor-pointer sm:hidden' src={burguerIcon} alt="" />
+    <Outlet />
     </>
   )
 }

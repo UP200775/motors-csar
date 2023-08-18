@@ -1,5 +1,3 @@
-
-
 export const Article = ({img, number, title, text}) => {
   return (
     <article className='flex h-[162px]'>
