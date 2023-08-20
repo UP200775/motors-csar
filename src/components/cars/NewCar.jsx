@@ -18,7 +18,7 @@ export const NewCar = () => {
       </div>
 
       <div>
-        ye
+        
       </div>
     </article>
   )
