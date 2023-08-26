@@ -5,9 +5,9 @@ import { NewContainer } from './components/NewContainer'
 import { ArticlesContainer } from './components/ArticlesContainer'
 import { Cars } from './components/Cars'
 import { NewCar } from './components/cars/NewCar'
+import { SlideBar } from './components/SlideBar'
 
 function App() {
-
   return (
     <main className='px-4 pt-6'>
       <Header />

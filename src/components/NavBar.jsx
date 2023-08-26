@@ -1,5 +1,6 @@
 import burguerIcon from '../assets/images/burgerIcon.png'
 import { Link, Outlet } from 'react-router-dom';
+import { SlideBar } from './SlideBar';
 
 export const NavBar = () => {
   return (
@@ -24,7 +25,9 @@ export const NavBar = () => {
             <Link to="/Comunícate">Comunícate</Link>
         </li>
     </ul>
-    <img className='w-10 h-4 cursor-pointer sm:hidden' src={burguerIcon} alt="" />
+
+    <SlideBar />
+    
     <Outlet />
     </>
   )
